@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Pricing Card UI using Html, Css and JavaScript</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="textBx">
+        <h1 class="bigHeading">Pick the best plan for your business</h1>
+      </div>
+
+      <div class="tabsBx">
+        <div class="tab">
+          <span>Monthly</span>
+        </div>
+        <div class="tab active">
+          <span>Yearly</span>
+          <p>2 months for free</p>
+        </div>
+      </div>
+
+      <div class="pricingCardContainer">
+        <div class="priceCard">
+          <div class="topBx">
+            <h3>Starter</h3>
+            <div class="align-straight">
+              <span>$&nbsp;&nbsp;</span>
+              <h2>17</h2>
+              <span class="light-text">&nbsp; /month</span>
+            </div>
+            <a href="#" class="btn">Start for free</a>
+            <div class="contentBx">
+              <p>
+                Ideal for freelancers and contractors just starting out. Billed
+                annually.
+              </p>
+            </div>
+          </div>
+
+          <div class="bottomBx">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="bx bxs-check-circle"></i>
+                  All Templates
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bx bxs-check-circle"></i>
+                  Unlimited Clients & Projects
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bx bxs-check-circle"></i>
+                  Invoicing & Payments
+                </a>
+              </li>
+              <li>
+                <a href="#" class="btn">Start for free</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
